@@ -1,0 +1,21 @@
+{
+  "name": "aurora-whatsapp-backend",
+  "version": "1.0.0",
+  "description": "Backend Aurora - Chatbot WhatsApp com Gemini IA",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["whatsapp", "chatbot", "gemini", "ai", "aurora"],
+  "author": "Make IA",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@google/genai": "^1.35.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
